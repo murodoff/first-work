@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="home"></div>
+    <header>
+        <p class="header-name">
+            jane bloglife
+        </p>
+        <p class="header-info">
+            Welcome to the blog of <span>Jane's world </span>
+        </p>
+    </header>
+
+    <div id="botir">
+        <div id="sub-func">
+            <div class="func-name">
+                SUBSCRIBE
+            </div>
+            <div class="func-txt">
+                Join my mailing list to receive updates on the latest blog posts and other things.
+            </div>
+            <form>
+                <input type="text" placeholder="Enter e-mail">
+                <button onclick="myfunc1()">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="bg-image">
+       <div class="bg-txt">
+        <p class="bg-name">
+            Jane's
+        </p>
+        <p class="bg-info">
+            fashion blog
+        </p>
+        <a class="bg-text" onclick="myfunc()">
+            subcrise
+        </a>
+       </div>
+    </div>
+
+    <div class="col-big">
+        <div class="big-box1">
+            <p class="big-name">
+                title heading
+            </p>
+            <p class="big-info">
+                Title description,<span> May 2, 2016 </span>
+            </p>
+            <img src="../w3images/girl_hat.jpg" alt="">
+            <p class="big-text">
+                <span>
+                    More Hats!
+                </span>
+                I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                <br><br>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+            <button class="like-btn" onclick="like()">
+                Like <span  id="demo1"></span>
+            </button>
+
+            <a class="replies" onclick="reply()">Replies <span>1</span></a>
+
+            <div id="information">
+                <ul>
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="big-box1">
+            <p class="big-name">
+                title heading
+            </p>
+            <p class="big-info">
+                Title description,<span> May 2, 2016 </span>
+            </p>
+            <img src="../w3images/man_hat.jpg" alt="">
+            <p class="big-text">
+                <span>
+                    More Hats!
+                </span>
+                I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                <br><br>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+            <button class="like-btn" onclick="likes()">
+                Like <span  id="demo2"></span>
+            </button>
+
+            <a class="replies" onclick="replys()">Replies <span>2</span></a>
+
+            <div id="information2">
+                <ul>
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="big-box1">
+            <p class="big-name">
+                title heading
+            </p>
+            <p class="big-info">
+                Title description,<span> May 2, 2016 </span>
+            </p>
+            <img src="../w3images/man_hat.jpg" alt="">
+            <p class="big-text">
+                <span>
+                    More Hats!
+                </span>
+                I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                <br><br>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+            <button class="like-btn" onclick="likess()">
+                Like <span  id="demo3"></span>
+            </button>
+
+            <a class="replies" onclick="replyss()">Replies <span>3</span></a>
+
+            <div id="information3">
+                <ul>
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+
+                    <li>
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                        <p class="info-name">
+                            George, <span>May 3, 2015, 6:32 PM</span>
+                        </p>
+                        <p class="info-text">
+                            Great blog post! Following
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-middle">
+
+        <div class="middle-box1">
+            <img src="../w3images/avatar_girl2.jpg" alt="">
+            <div class="box1-text">
+                <div class="box1-text-name">
+                    My Name
+                </div>
+                <div class="box1-text-info">
+                    Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="middle-box2">
+            <p class="post-name">
+                Popular Posts
+            </p>
+            <ul class="posts">
+               
+                <li>
+                   <div class="post-image">
+                    <img src="../w3images/avatar_smoke.jpg" alt="">
+                   </div>
+                   <span class="middle-box2-name">
+                       Denim
+                   </span> 
+                   <span class="middle-box2-text2">
+                       Lorem, ipsum dolor.
+                   </span>
+                </li>
+                <li>
+                    <div class="post-image">
+                        <img src="../w3images/bandmember.jpg" alt="">
+                       </div>
+                       <span class="middle-box2-name">
+                        Sweaters
+                       </span> 
+                       <span class="middle-box2-text2">
+                        Praes tinci sed
+                       </span>
+                </li>
+                <li>
+                    <div class="post-image">
+                        <img src="../w3images/workshop.jpg" alt="">
+                       </div>
+                       <span class="middle-box2-name">
+                        Workshop
+                       </span> 
+                       <span class="middle-box2-text2">
+                        Ultricies congue
+                       </span>
+                </li>
+                <li>
+                    <div class="post-image">
+                        <img src="../w3images/avatar_smoke.jpg" alt="">
+                       </div>
+                       <span class="middle-box2-name">
+                           Denim
+                       </span> 
+                       <span class="middle-box2-text2">
+                           Lorem, ipsum dolor.
+                       </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="middle-box3">
+            <p class="ad-name">
+                Advertise
+            </p>
+
+           <div class="ad-info">
+            <p class="ad-text">
+                Your AD Here
+            </p>
+           </div>
+        </div>
+
+        <div class="middle-box4">
+            <div class="tag-name">
+                Tags
+            </div>
+           <p>
+            <span class="active-tag">Fashion</span>
+            <span>New York</span>
+            <span>London</span>
+            <span>Hats</span>
+            <span>Norway</span>
+            <span> Sweaters</span>
+            <span>Ideas</span>
+            <span>Deals</span>
+            <span>Accessories</span>
+            <span> News Clothing</span>
+            <span>Shopping</span>
+            <span>Jeans</span>
+            <span>Trends</span>
+           </p>
+        </div>
+
+        <div class="middle-box5">
+            <div class="tag-name">
+                Inspiration
+            </div>
+
+            <div class="images">
+              
+                <div class="image-col">
+                    <p> <img src="../w3images/jeans.jpg" alt=""> </p>
+                   <p> <img src="../w3images/team1.jpg" alt=""></p>
+                </div>
+               
+               
+                    <div class="image-col">
+                        <p> <img src="../w3images/avatar_hat.jpg" alt=""> </p>
+                       <p> <img src="../w3images/team4.jpg" alt=""></p>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="middle-box6">
+            <div class="contac-name">
+                Contac Me
+            </div>
+
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Message">
+               <p><a>Send</a></p>
+            </form>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="middle-box7">
+            <div class="Subscribe">
+                Subscribe
+            </div>
+
+           <div class="sub-text">
+            <p>
+                <span>
+                    Enter your e-mail below and get notified on the latest blog posts.
+                </span>
+            </p>
+            <form>
+                <input type="text" name="Email" placeholder="Email">
+                <button class="sub-btn" onclick="myfunc()">Subscribe</button>
+            </form>
+
+           </div>
+
+
+        </div>
+
+        <div class="clr"></div>      
+
+    </div>
+
+<div class="clr"></div>
+
+   <footer>
+       <br>
+       <br>
+       <a href="#home">
+           to the top
+       </a>
+
+       <p>
+           Copyright 2020
+       </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+    i=1;    
+        function like(){
+            
+            document.getElementById("demo1").innerHTML=i++;
+            document.getElementById("demo1").style.backgroundColor="red";
+            document.getElementById("demo1").style.padding="3px 6px";
+        }
+s=0;
+        function reply(){
+            
+            s=s+1;
+            if(s%2==0){
+                document.getElementById("information").style.display="none";
+            }
+            else{
+                document.getElementById("information").style.display="block";
+            }
+        }
+
+        i=1;    
+        function likes(){
+            
+            document.getElementById("demo2").innerHTML=i++;
+            document.getElementById("demo2").style.backgroundColor="red";
+            document.getElementById("demo2").style.padding="3px 6px";
+        }
+s=0;
+        function replys(){
+            
+            s=s+1;
+            if(s%2==0){
+                document.getElementById("information2").style.display="none";
+            }
+            else{
+                document.getElementById("information2").style.display="block";
+            }
+        }
+
+
+
+        p=1;    
+        function likess(){
+            
+            document.getElementById("demo3").innerHTML=p++;
+            document.getElementById("demo3").style.backgroundColor="red";
+            document.getElementById("demo3").style.padding="3px 6px";
+        }
+l=0;
+        function replyss(){
+            
+            l=l+1;
+            if(l%2==0){
+                document.getElementById("information3").style.display="none";
+            }
+            else{
+                document.getElementById("information3").style.display="block";
+            }
+        }
+
+        function myfunc(){
+            document.getElementById("botir").style.display="block";
+        }
+
+        function myfunc1(){
+            document.getElementById("botir").style.display="none";
+        }
+
+      
+    </script>
+
+
+</body>
+</html> 

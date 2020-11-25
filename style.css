@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #ddd;
+}
+header{
+    background-color: #fff;
+}
+.header-name{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-info{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 60px;
+
+}
+
+.header-info span{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+.bg-image{
+    background-image: url(../w3images/jane.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-name{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 50vh;
+}
+
+.bg-info{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.bg-txt{
+    padding-left: 2rem;
+}
+.bg-text{
+    background-color: #999;
+    color: #000;
+    padding: 8px 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.col-big{
+    width: 66.666%;
+    float: left;
+}
+
+.big-box1{
+    padding: 1rem;
+    margin: 1.5rem;
+    background-color: #fff;
+}
+
+.big-box1 img{
+    width: 100%;
+}
+
+.col-middle{
+    width: 33.333%;
+    float: left;
+}
+.big-name{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+.big-info{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+
+.big-text{
+    padding-top: 1rem;
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.big-text span{
+    font-weight: bold;
+}
+
+.like-btn{
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.like-btn:hover{
+    background-color: #ddd;
+}
+
+.replies{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    float: right;
+
+}
+
+.replies:hover{
+    background-color: #ddd;
+    color: #000;
+    cursor: pointer;
+}
+
+.replies span{
+    background-color: #fff;
+    color: #000;
+    padding: 3px 6px;
+}
+
+#information {
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    position: relative;
+    display: none;
+}
+
+
+#information img{
+    width: 90px;
+    margin-right: 5rem;
+    float: left;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+#information ul{
+    padding: 1rem;
+    display: inline-block;
+}
+
+.info-name{
+    float: left;
+    font-size: 20px;
+    padding-bottom: 1.4rem;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+.info-name span{
+    color: #999;
+}
+.info-text{
+    
+    font-size: 16px;
+}
+
+
+#information2, #information3{
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    position: relative;
+    display: none;
+}
+
+
+#information2 img, #information3 img{
+    width: 90px;
+    margin-right: 5rem;
+    float: left;
+}
+
+#information2 ul, #information3 ul{
+    padding: 1rem;
+    display: inline-block;
+}
+.col-middle{
+    float: left;
+}
+.middle-box1 img{
+    width: 100%;
+    opacity: 0.7;
+}
+
+.middle-box1{
+    margin: 1.5rem;
+    background-color: #000;
+}
+
+.box1-text-name{
+    font-size: 18px;
+    color: #fff;
+    padding: 0.3rem 1rem;
+}
+
+.box1-text-info{
+    font-size: 16px;
+    color: #fff;
+    padding: 1rem;
+    line-height: 1.6rem;
+}
+
+.middle-box2{
+    margin: 1.5rem;
+}
+
+.post-name{
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 1.6rem;
+}
+
+.posts{
+    background-color: #fff;
+}
+.posts img{
+    width: 50px;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.middle-box2-name{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    padding-right: 100px;
+    line-height: 2rem;
+}
+
+.middle-box2-text2{
+    font-size: 16px;
+}
+
+.posts li{
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.posts li:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.middle-box3{
+    background-color: #fff;
+    margin: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.ad-name{
+    background-color: #000000;
+    padding: 1.5rem;
+    color: #fff;
+    font-size: 22px;
+    
+}
+
+.ad-text{
+   background-color: #ddd;
+   padding: 4rem;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   text-align: center;
+}
+
+.middle-box4{
+    background-color: #fff;
+    margin: 1.5rem;
+}
+
+.tag-name{
+    padding: 1.5rem;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.middle-box4 p{
+    font-size: 14px;
+    padding: 1rem;
+
+}
+
+.middle-box4 p span{
+    background-color: #ddd;
+    padding: 2px;
+    margin: 2px;
+    line-height: 2.5rem;
+}
+
+.active-tag{
+    padding: 5px!important;
+    background-color: #000!important;
+    color: #fff;
+}
+
+.images{
+   
+    background-color: #fff;
+}
+
+.middle-box5{
+    margin: 1.5rem; 
+    background-color: #fff;
+}
+
+
+.image-col{
+    width: 49.999%;
+    float: left;
+    background-color: #fff;
+}
+
+.image-col img{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.middle-box6{
+    margin: 1.5rem;
+    background-color: #fff;
+}
+
+.contac-name{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+.clr{
+    clear: both;
+}
+
+.middle-box6 form input{
+    width: 90%;
+    padding: 10px;
+    margin: 8px 16px;
+    font-size: 20px;
+    background-color: #ddd;
+}
+
+.middle-box6 form p{
+    margin-bottom: 1rem;
+}
+
+
+.middle-box6 form p{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.middle-box6 form p a{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.middle-box7{
+    margin: 1.5rem;
+    background-color: #fff;
+}
+
+.Subscribe{
+    background-color: #000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+.sub-text{
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+.sub-text form input{
+    padding: 8px;
+    font-size: 18px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.sub-btn{
+    background-color: rgb(248, 75, 75);
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    padding: 8px 0;
+    color: #fff;
+}
+
+.sub-btn:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+#sub-func{
+    position: relative;
+    margin: 7rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.func-name{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+.func-txt{
+    padding-bottom: 1rem;
+    color: #888;
+}
+
+#sub-func form input{
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 18px;
+}
+
+#sub-func form button{
+    width: 100%;
+    margin-top: 1.4rem;
+    padding: 0.5rem 2rem;
+    background-color: rgb(248, 75, 75);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+#sub-func form button:hover{
+    background-color: #ddd;
+    color: #000000;
+}
+
+#botir{
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+footer{
+    background-color: #555;
+    height: 130px;
+    width: 100%;
+}
+
+footer a{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 4rem;
+    padding: 8px 16px;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 1rem;
+    color: #fff;
+}
